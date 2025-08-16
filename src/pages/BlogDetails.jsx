@@ -1,6 +1,6 @@
 import React from "react";
 
-const Marketing = () => {
+const BlogDetails = () => {
   return (
     <>
       <section className="featured-article">
@@ -17,7 +17,7 @@ const Marketing = () => {
           </div>
         </div>
         <div className="image-wrapper">
-          <img src="./images/Frame (7).png" alt="" />
+          <img src="./src/assets/images/Frame (7).png" alt="" />
         </div>
       </section>
 
@@ -67,7 +67,7 @@ const Marketing = () => {
           </p>
 
           <div className="image-block">
-            <img src="./images/Frame0.png" alt="" />
+            <img src="./src/assets/images/Frame0.png" alt="" />
           </div>
 
           <h2>The Fixed Enormity, This Thousands Turner</h2>
@@ -124,7 +124,7 @@ const Marketing = () => {
 
         <div className="cards-container">
           <div className="cardss">
-            <img src="./images/Rectangle 63 (17).png" alt="" />
+            <img src="./src/assets/images/Rectangle 63 (17).png" alt="" />
             <div className="cardss-body">
               <span className="tag">Startups</span>
               <h3>Elements that capture and retain user interest</h3>
@@ -136,7 +136,7 @@ const Marketing = () => {
           </div>
 
           <div className="cardss">
-            <img src="./images/Rectangle 63 (24).png" alt="" />
+            <img src="./src/assets/images/Rectangle 63 (24).png" alt="" />
             <div className="cardss-body">
               <span className="tag">Marketing</span>
               <h3>Top trends to watch and implement in 2024</h3>
@@ -148,7 +148,7 @@ const Marketing = () => {
           </div>
 
           <div className="cardss">
-            <img src="./images/Rectangle 63 (18).png" alt="" />
+            <img src="./src/assets/images/Rectangle 63 (18).png" alt="" />
             <div className="cardss-body">
               <span className="tag">Design</span>
               <h3>Engaging your audience in the digital age</h3>
@@ -164,4 +164,4 @@ const Marketing = () => {
   );
 };
 
-export default Marketing;
+export default BlogDetails;

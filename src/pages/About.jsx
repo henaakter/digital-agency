@@ -3,193 +3,346 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <section className="recent-work">
-        <h1>Recent Work</h1>
-        <div className="filters">
-          <button className="active">All Blog</button>
-          <button>Mobile App</button>
-          <button>Website Design</button>
-          <button>Dashboard</button>
-          <button>Product Design</button>
-          <button>Branding</button>
+      <div className="learn-container">
+        <div className="learn-heading">
+          <h1>
+            Learn More <br /> About Us
+          </h1>
+        </div>
+
+        <div className="video-section">
+          <div className="video-wrapper">
+            <img src="./src/assets/images/Frame (4).png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <section className="story-section">
+        <div className="content-wrapper">
+          <h1 className="main-heading">
+            The story of who we are
+            <br />
+            and the vision that drives
+            <br />
+            us forward
+          </h1>
+
+          <div className="paragraphs">
+            <p>
+              Suffragium tui caritas. Validus laboriosam ars truculenter patior
+              ante distinctio venia calco.Vae trans defere claro debeo tunc tibi
+              vesica vita. Cubo truculenter omnis vis valeo tergiversatio
+              debilito aestas odio dolorem.
+            </p>
+            <p>
+              Circumvenio textus magnam. Aestus canto demonstro. Causa absicio
+              ultio repellat placeat ciminatio theologus subnecto. Pelor vacuus
+              aperiam adipisci acidus arcesso vilicus opisoe.
+            </p>
+          </div>
+
+          <div className="images">
+            <img src="./src/assets/images/Frame (5).png" alt="" />
+            <img src="./src/assets/images/Frame (6).png" alt="" />
+          </div>
         </div>
       </section>
 
-      <div className="blog-post">
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (8).png" alt="" />
-          </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Mobile App</a>
-            </button>
-            <h2 className="blog-sub">Boldstream</h2>
+      <section className="core-values-section">
+        <h2 className="section-titles">Our core values</h2>
+
+        <div className="values-container">
+          <div className="value-card">
+            <div className="icon-circle">
+              <img src="./src/assets/images/bubble-chart-line.png" alt="" />
+            </div>
+            <h3>Velocity</h3>
             <p>
-              <strong>Design </strong> . <strong> Development</strong>
+              Consequatur nisi vulpes vito odit summisse patraus. Solum vel
+              uberrime umquam adipisci ali ens cruetus cito dicta.
             </p>
-            <p className="blog-desc">
-              Comedo vel tripudio sordeo accendo deludo degusto adipisci
-              dolores. Vergo curo quibusdam caput iste cerno nihil usus benigne.
+          </div>
+
+          <div className="value-card">
+            <div className="icon-circle">
+              <img
+                src="./src/assets/images/checkbox-multiple-line.png"
+                alt=""
+              />
+            </div>
+            <h3>Brilliance</h3>
+            <p>
+              Defero utor ciminatio ubi vere demitto virgo xiphias arbor.
+              Trepide debilito solus distinctio ara talus tendo termes.
             </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
+          </div>
+
+          <div className="value-card">
+            <div className="icon-circle">
+              <img src="./src/assets/images/chat-smile-2-line.png" alt="" />
+            </div>
+            <h3>Clarity</h3>
+            <p>
+              Consequatur vix cavus admitto abbas vos villa caelum. Arceo
+              assentator repesco somniculosus voluptas curtus sublime vere.
+            </p>
           </div>
         </div>
+      </section>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (9).png" alt="" />
+      <section className="team-section">
+        <h2 className="section-title">
+          The people behind
+          <br />
+          the progress
+        </h2>
+
+        <div className="team-grid">
+          <div className="team-member">
+            <img src="./src/assets/images/Rectangle 64.png" alt="" />
+            <h4>Lewis Mueller I</h4>
+            <p>UX/UI Designer</p>
           </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Website Design</a>
-            </button>
-            <h2 className="blog-sub">InnovateX</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
-            </p>
-            <p className="blog-desc">
-              Truculenter caterva tamquam cilicium admoveo consequuntur aufero.
-              Derelinquo ceno amet molestiae crustulum tubineus.
-            </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
+
+          <div className="team-member">
+            <img src="./src/assets/images/Rectangle 64 (1).png" alt="" />
+            <h4>Kenny Murray</h4>
+            <p>Founder & Head of Design</p>
+          </div>
+
+          <div className="team-member">
+            <img src="./src/assets/images/image (1).png" alt="" />
+            <h4>Leah Jacobson</h4>
+            <p>Creative Director</p>
+          </div>
+
+          <div className="team-member">
+            <img src="./src/assets/images/Rectangle 64 (2).png" alt="" />
+            <h4>Ray Rolfson</h4>
+            <p>Marketing Specialist</p>
+          </div>
+
+          <div className="team-member">
+            <img src="./src/assets/images/image (1).png" alt="" />
+            <h4>Lillie Bauer</h4>
+            <p>Project Manager</p>
           </div>
         </div>
+      </section>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (10).png" alt="" />
+      <section className="service-sections">
+        <h2 className="section-heading">
+          What services <br /> we provide?
+        </h2>
+        <div className="service-grid">
+          <div className="service-card">
+            <div className="icon-box">
+              <img src="./src/assets/images/bubble-chart-line.png" alt="" />
+            </div>
+            <h3 className="service-heading">Brand Identity</h3>
+            <p className="service-desc">
+              Crafting visually stunning, user-centered websites tailored to
+              your brand and business goals. Ongoing support and updates to
+              ensure your website remains secure, fast, and up-to-date.
+            </p>
           </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Dashboard</a>
-            </button>
-            <h2 className="blog-sub">PixelForge</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
+
+          <div className="service-card">
+            <div className="icon-box">
+              <img src="./src/assets/images/computer-line.png" alt="" />
+            </div>
+            <h3 className="service-heading">Web Design</h3>
+            <p className="service-desc">
+              Building websites optimized for all devices, from desktop to
+              mobile. Ongoing support and updates to ensure your website remains
+              secure, fast, and up-to-date with trends.
             </p>
-            <p className="blog-desc">
-              Sit sol solium magnam damnatio sed vox. Assentat vicissitudo
-              apparatus comitatus attero is suffoco. Asperiores adnuo victoria
-              volaticus templum.
+          </div>
+
+          <div className="service-card">
+            <div className="icon-box">
+              <img src="./src/assets/images/code-s-slash-line.png" alt="" />
+            </div>
+            <h3 className="service-heading">Web Development</h3>
+            <p className="service-desc">
+              Developing impactful logos and cohesive visual identities that
+              resonate with your target audience. Designing business cards,
+              brochures, and digital assets that align with your brand identity.
             </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
+          </div>
+
+          <div className="service-card">
+            <div className="icon-box">
+              <img src="./src/assets/images/pie-chart-line.png" alt="" />
+            </div>
+            <h3 className="service-heading">Digital Marketing</h3>
+            <p className="service-desc">
+              Optimizing your website and content to rank higher on search
+              engines and attract organic traffic. Designing and executing
+              personalized email campaigns to conversions.
+            </p>
           </div>
         </div>
+      </section>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (11).png" alt="" />
-          </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Product Design</a>
-            </button>
-            <h2 className="blog-sub">SyncCraft</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
-            </p>
-            <p className="blog-desc">
-              Corona stipes corrupti acerbitas. Adeptio videlicet clementia.
-              Cunabula somnus porro cilicium cum teneo usus spent day.
-            </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
-          </div>
+      <section className="testimonial-section">
+        <div className="testimonial-content">
+          <h2>
+            Hear it from <br /> our clients
+          </h2>
         </div>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (12).png" alt="" />
-          </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Branding</a>
-            </button>
-            <h2 className="blog-sub">NextWave</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
-            </p>
-            <p className="blog-desc">
-              Degusto credo nostrum arbustum at studio vulgo doloribus cicuta.
-              Spiritus perspiciatis causa canoni ait adstringo venio utrimque.
-            </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
-          </div>
+        <div className="arrows">
+          <button className="arrow-btn">&larr;</button>
+          <button className="arrow-btn">&rarr;</button>
         </div>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (13).png" alt="" />
+        <div className="testimonial-container">
+          <div className="testimonial-card">
+            <p className="testimonial-desc">
+              “Their team didn't just take the project on; they became an
+              integral extension of our business. From the very beginning, they
+              immersed themselves in our brand and culture, that fit perfectly
+              with our objectives.”
+            </p>
+            <div className="user">
+              <div className="info">
+                <h3>Juan Rath</h3>
+                <h6>Head of Product</h6>
+              </div>
+              <img src="./src/assets/images/Ellipse 2.png" alt="" />
+            </div>
           </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Website Design</a>
-            </button>
-            <h2 className="blog-sub">SpectraShift</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
+
+          <div className="testimonial-card">
+            <p className="testimonial-desc">
+              “The team went above and beyond to deliver a website that exceeded
+              our expectations. Their attention to detail and commitment to
+              quality made all the difference seen a significant increase in
+              traffic customer engagement!”
             </p>
-            <p className="blog-desc">
-              Defluo cilicium velit urbs deinde video laborum aequus advoco. Ab
-              cilicium baiulus. Absconditus explicabo dolor talio benigne vito
-              terror peior.
+            <div className="user">
+              <div className="info">
+                <h3>Francis Kovacek</h3>
+                <h6>Founder</h6>
+              </div>
+              <img src="./src/assets/images/Ellipse 2.png" alt="" />
+            </div>
+          </div>
+
+          <div className="testimonial-card">
+            <p className="testimonial-desc">
+              “The level of communication and collaboration we experienced while
+              working with the agency was unparalleled. Not only were they
+              responsive but also proactive with regular updates.”
             </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
+            <div className="user">
+              <div className="info">
+                <h3>Diana Wiegand</h3>
+                <h6>CEO</h6>
+              </div>
+              <img src="./src/assets/images/Ellipse 2.png" alt="" />
+            </div>
+          </div>
+
+          <div className="testimonial-card">
+            <p className="testimonial-desc">
+              “Their team didn’t just take the project on; they became an
+              integral extension of our business. From the very beginning, they
+              immersed themselves in our brand and culture, that fit perfectly
+              with our objectives.”
+            </p>
+            <div className="user">
+              <div className="info">
+                <h3>Jack</h3>
+                <h6>Employee</h6>
+              </div>
+              <img src="./src/assets/images/Ellipse 2.png" alt="" />
+            </div>
           </div>
         </div>
+      </section>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (14).png" alt="" />
+      <section className="awards-section">
+        <h2 className="section-title">
+          Awards &<br />
+          recognition
+        </h2>
+
+        <div className="awards-grid">
+          <div className="award-card">
+            <img src="./src/assets/images/Group.png" alt="" />
+            <p>Top 100 Innovators in Digital Design</p>
           </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Mobile App</a>
-            </button>
-            <h2 className="blog-sub">Cipherworks</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
-            </p>
-            <p className="blog-desc">
-              Baiulus ara pectus contra decimus conatus. Infit angustus canto
-              temptatio aliquam testimonium volubilis cunae totidem.
-            </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
-            </button>
+
+          <div className="award-card">
+            <img src="./src/assets/images/Group (1).png" alt="" />
+            <p>Gold Award for Creative Excellence</p>
+          </div>
+
+          <div className="award-card">
+            <img src="./src/assets/images/Group (2).png" alt="" />
+            <p>Excellence in Digital Marketing</p>
+          </div>
+
+          <div className="award-card">
+            <img src="./src/assets/images/Group (3).png" alt="" />
+            <p>Top 10 Digital Agencies Worldwide</p>
           </div>
         </div>
+      </section>
 
-        <div className="blog-title">
-          <div className="project-about">
-            <img src="./images/Rectangle 63 (15).png" alt="" />
-          </div>
-          <div className="blog-content">
-            <button className="pro-btn">
-              <a href="#">Product Design</a>
+      <div className="faq-section">
+        <div className="faq-title">
+          <h1>
+            Frequently
+            <br />
+            Asked
+            <br />
+            Question
+          </h1>
+        </div>
+
+        <div className="faq-container">
+          <div className="faq-item open">
+            <button className="faq-question">
+              How do I contact you for inquiries or collaborations?
+              <span className="icon">-</span>
             </button>
-            <h2 className="blog-sub">CoreVision</h2>
-            <p>
-              <strong>Design</strong> . <strong>Development</strong>
-            </p>
-            <p className="blog-desc">
-              Vox amissio curis thesaurus peior acced explicabo. Curatio
-              adsuesco stipes umquam comminor aspici Decumbo tener cervus.
-            </p>
-            <button className="project-btn">
-              <a href="#">View Project →</a>
+
+            <div className="faq-answer">
+              Best the average blind and that accordingly pointing, out the to
+              bold, good my believed the rattling experiments friends couldn't
+              scolded unable to many line may their times, propitiously is
+              themselves, was discipline the be the seen escape.
+            </div>
+          </div>
+
+          <div className="faq-item">
+            <button className="faq-question">
+              What services does your digital agency offer?
+              <span className="icon">+</span>
+            </button>
+          </div>
+
+          <div className="faq-item">
+            <button className="faq-question">
+              How long does it take to build a website?
+              <span className="icon">+</span>
+            </button>
+          </div>
+
+          <div className="faq-item">
+            <button className="faq-question">
+              What is included in your digital marketing services?
+              <span className="icon">+</span>
+            </button>
+          </div>
+
+          <div className="faq-item">
+            <button className="faq-question">
+              Can you create content for our social media accounts?
+              <span className="icon">+</span>
             </button>
           </div>
         </div>

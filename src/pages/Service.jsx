@@ -4,7 +4,7 @@ const Service = () => {
   const services = [
     {
       title: "Brand Identity",
-      icon: "./images/bubble-chart-line.png",
+      icon: "./src/assets/images/bubble-chart-line.png",
       desc: "Crafting visually stunning, user-centered websites tailored to your brand and business goals. Ongoing support and updates to ensure your website remains secure, fast, and up-to-date.",
       list: [
         "Unique logo and visual style creation",
@@ -12,11 +12,11 @@ const Service = () => {
         "Rebranding for a refreshed look",
         "Consistent visual and verbal identity",
       ],
-      image: "./images/Rectangle 63 (8).png",
+      image: "./src/assets/images/Rectangle 63 (8).png",
     },
     {
       title: "Web Design",
-      icon: "./images/computer-line.png",
+      icon: "./src/assets/images/computer-line.png",
       desc: "Building websites optimized for all devices, from desktop to mobile. Ongoing support and updates to ensure your website remains secure, fast, and up-to-date with trends.",
       list: [
         "Defining goals and understanding",
@@ -24,11 +24,11 @@ const Service = () => {
         "Custom-built on Webflow, WordPress, and more",
         "Launching and maintaining the website",
       ],
-      image: "./images/Rectangle 63 (14).png",
+      image: "./src/assets/images/Rectangle 63 (14).png",
     },
     {
       title: "Web Development",
-      icon: "./images/code-s-slash-line.png",
+      icon: "./src/assets/images/code-s-slash-line.png",
       desc: "Developing impactful logos and cohesive visual identities that resonate with your target audience. Designing business cards, brochures, and digital assets that align with your brand identity.",
       list: [
         "Research, development and coding",
@@ -36,11 +36,11 @@ const Service = () => {
         "Quality assurance, deployment and launch",
         "Ongoing maintenance and updates",
       ],
-      image: "./images/Rectangle 63 (15).png",
+      image: "./src/assets/images/Rectangle 63 (15).png",
     },
     {
       title: "Digital Marketing",
-      icon: "./images/pie-chart-line.png",
+      icon: "./src/assets/images/pie-chart-line.png",
       desc: "Optimizing your website and content to rank higher on search engines and attract organic traffic. Designing and executing personalized email campaigns to conversions.",
       list: [
         "Start by defining your goals,",
@@ -48,7 +48,7 @@ const Service = () => {
         "Conducting competitor research",
         "Developing a content strategy",
       ],
-      image: "./images/Rectangle 63 (9).png",
+      image: "./src/assets/images/Rectangle 63 (9).png",
     },
   ];
 
@@ -57,25 +57,25 @@ const Service = () => {
       desc: "Their team didn't just take the project on; they became an integral extension of our business. From the very beginning, they immersed themselves in our brand and culture, that fit perfectly with our objectives.",
       name: "Juan Rath",
       role: "Head of Product",
-      img: "./images/Ellipse 2.png",
+      img: "./src/assets/images/Ellipse 2.png",
     },
     {
       desc: "The team went above and beyond to deliver a website that exceeded our expectations. Their attention to detail and commitment to quality made all the difference seen a significant increase in traffic customer engagement!",
       name: "Francis Kovacek",
       role: "Founder",
-      img: "./images/Ellipse 2.png",
+      img: "./src/assets/images/Ellipse 2.png",
     },
     {
       desc: "The level of communication and collaboration we experienced while working with the agency was unparalleled. Not only were they responsive but also proactive with regular updates.",
       name: "Diana Wiegand",
       role: "CEO",
-      img: "./images/Ellipse 2.png",
+      img: "./src/assets/images/Ellipse 2.png",
     },
     {
       desc: "Their team didn’t just take the project on; they became an integral extension of our business. From the very beginning, they immersed themselves in our brand and culture, that fit perfectly with our objectives.",
       name: "Jack",
       role: "Employee",
-      img: "./images/Ellipse 2.png",
+      img: "./src/assets/images/Ellipse 2.png",
     },
   ];
 

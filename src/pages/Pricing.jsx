@@ -98,25 +98,25 @@ const Pricing = () => {
               desc: "Their team didn't just take the project on; they became an integral extension of our business. From the very beginning, they immersed themselves in our brand and culture, that fit perfectly with our objectives.",
               name: "Juan Rath",
               role: "Head of Product",
-              img: "./images/Ellipse 2.png",
+              img: "./src/assets/images/Ellipse 2.png",
             },
             {
               desc: "The team went above and beyond to deliver a website that exceeded our expectations. Their attention to detail and commitment to quality made all the difference seen a significant increase in traffic customer engagement!",
               name: "Francis Kovacek",
               role: "Founder",
-              img: "./images/Ellipse 2.png",
+              img: "./src/assets/images/Ellipse 2.png",
             },
             {
               desc: "The level of communication and collaboration we experienced while working with the agency was unparalleled. Not only were they responsive but also proactive with regular updates.",
               name: "Diana Wiegand",
               role: "CEO",
-              img: "./images/Ellipse 2.png",
+              img: "./src/assets/images/Ellipse 2.png",
             },
             {
               desc: "Their team didn’t just take the project on; they became an integral extension of our business. From the very beginning, they immersed themselves in our brand and culture, that fit perfectly with our objectives.",
               name: "Jack",
               role: "Employee",
-              img: "./images/Ellipse 2.png",
+              img: "./src/assets/images/Ellipse 2.png",
             },
           ].map((testimonial, index) => (
             <div className="testimonial-card" key={index}>
@@ -141,7 +141,9 @@ const Pricing = () => {
           {[...Array(10)].map((_, i) => (
             <div className="client-card" key={i}>
               <img
-                src={`./images/Company logo${i === 0 ? "" : ` (${i})`}.png`}
+                src={`./src/assets/images/Company logo${
+                  i === 0 ? "" : ` (${i})`
+                }.png`}
                 alt=""
               />
             </div>

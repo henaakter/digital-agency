@@ -1,6 +1,6 @@
 import React from "react";
 
-const Overview = () => {
+const ProjectDetails = () => {
   return (
     <>
       {/* Banner section start */}
@@ -8,7 +8,7 @@ const Overview = () => {
         <h1>Boldstream</h1>
 
         <div className="project-image">
-          <img src="./images/Rectangle 63 (8).png" alt="" />
+          <img src="./src/assets/images/Rectangle 63 (8).png" alt="" />
         </div>
 
         <div className="project-info">
@@ -60,7 +60,7 @@ const Overview = () => {
         </div>
 
         <div className="image-box">
-          <img src="./images/Frame0.png" alt="" />
+          <img src="./src/assets/images/Frame0.png" alt="" />
         </div>
 
         <p className="view-text">
@@ -93,13 +93,13 @@ const Overview = () => {
 
         <section className="images-grid">
           <div className="image-card">
-            <img src="./images/Frame (1).png" alt="" />
+            <img src="./src/assets/images/Frame (1).png" alt="" />
           </div>
           <div className="image-card">
-            <img src="./images/Frame (2).png" alt="" />
+            <img src="./src/assets/images/Frame (2).png" alt="" />
           </div>
           <div className="image-card wide">
-            <img src="./images/Frame (3).png" alt="" />
+            <img src="./src/assets/images/Frame (3).png" alt="" />
           </div>
         </section>
 
@@ -127,7 +127,7 @@ const Overview = () => {
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">
-            <img src="./images/Rectangle 63 (8).png" alt="" />
+            <img src="./src/assets/images/Rectangle 63 (8).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -149,7 +149,7 @@ const Overview = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./images/Rectangle 63 (9).png" alt="" />
+            <img src="./src/assets/images/Rectangle 63 (9).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -175,4 +175,4 @@ const Overview = () => {
   );
 };
 
-export default Overview;
+export default ProjectDetails;
