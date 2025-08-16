@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <header className="navbar-container">
       <nav className="navbar">
-        <div className="logo">
+        <Link to='/' className="logo">
           <span className="logo-icon">::</span>
           <span className="logo-text">ElveAgency</span>
-        </div>
+        </Link>
         <ul className="nav-links">
           <li>
-            <Link to="/">Projects</Link>
+            <Link to="/project">Projects</Link>
           </li>
           <li>
             <Link to="/service">Services</Link>

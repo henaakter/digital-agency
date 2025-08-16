@@ -13,6 +13,13 @@ body {
   color: #000;
 }
 
+.global-container{
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Navbar starts  */
 
 .navbar-container {
@@ -33,6 +40,7 @@ body {
 
 .logo {
   display: flex;
+  color: #000;
   align-items: center;
   font-weight: bold;
   font-size: 24px;
@@ -723,6 +731,7 @@ ul li {
   gap: 40px;
   max-width: 1240px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .faq-title h1 {

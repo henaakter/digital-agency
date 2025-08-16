@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,47 +14,47 @@ const Footer = () => {
               <br />
               your mind
             </h1>
-            <a href="#" className="cta-button">
+            <Link to="/contact" className="cta-button">
               Contact us →
-            </a>
+            </Link>
           </div>
 
           <div className="footer-links">
             <div>
               <ul>
                 <li>
-                  <a href="#">Services</a>
+                  <Link to="/service">Services</Link>
                 </li>
                 <li>
-                  <a href="#">Projects</a>
+                  <Link to="/project">Projects</Link>
                 </li>
                 <li>
-                  <a href="#">About us</a>
+                  <Link to="/about">About us</Link>
                 </li>
                 <li>
-                  <a href="#">Pricing</a>
+                  <Link to="/pricing">Pricing</Link>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                  <Link to="/blogs">Blog</Link>
                 </li>
               </ul>
             </div>
             <div>
               <ul>
                 <li>
-                  <a href="#">Twitter/X</a>
+                  <Link to="#">Twitter/X</Link>
                 </li>
                 <li>
-                  <a href="#">Instagram</a>
+                  <Link to="#">Instagram</Link>
                 </li>
                 <li>
-                  <a href="#">LinkedIn</a>
+                  <Link to="#">LinkedIn</Link>
                 </li>
                 <li>
-                  <a href="#">Facebook</a>
+                  <Link to="#">Facebook</Link>
                 </li>
                 <li>
-                  <a href="#">YouTube</a>
+                  <Link to="#">YouTube</Link>
                 </li>
               </ul>
             </div>
