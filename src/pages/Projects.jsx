@@ -5,14 +5,6 @@ const Projects = () => {
     <>
       <section className="recent-work">
         <h1>Recent Work</h1>
-        <div className="filters">
-          <button className="active">All Blog</button>
-          <button>Mobile App</button>
-          <button>Website Design</button>
-          <button>Dashboard</button>
-          <button>Product Design</button>
-          <button>Branding</button>
-        </div>
       </section>
 
       <div className="blog-post">

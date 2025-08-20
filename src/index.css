@@ -24,7 +24,7 @@ body {
 
 .navbar-container {
   padding: 10px 0;
-  background: linear-gradient(to right, #e4f0ff, #d5ff4d, #a3f07e);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
 }
 
 .navbar {
@@ -35,7 +35,7 @@ body {
   background-color: white;
   padding: 12px 24px;
   margin: auto;
-  border-radius: 999px;
+  border-radius: 60px;
 }
 
 .logo {
@@ -80,7 +80,7 @@ body {
 .container {
   padding: 80px 20px;
   text-align: center;
-  background: linear-gradient(to right, #e4f0ff, #d5ff4d, #a3f07e);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
 }
 
 .header-content {
@@ -230,6 +230,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 150px;
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
 }
 
 .blog-title {
@@ -238,7 +239,8 @@ body {
   display: flex;
   margin: 16px 0;
   border-radius: 24px;
-  box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4;
+  background: white;
+  /* box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0.1rem 0.1rem #c4c4c4; */
 }
 
 .project-about {
@@ -409,7 +411,7 @@ strong {
   justify-content: center;
   width: 88px;
   height: 88px;
-  background: linear-gradient(to right, #c5db75, #60dc2f);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
   border-radius: 60px;
   margin-left: 40px;
   margin-bottom: 55px;
@@ -790,6 +792,7 @@ ul li {
   color: #000;
   /* max-width: 1240px; */
   padding: 60px 40px 20px;
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
 }
 
 .footer-top {
@@ -865,15 +868,15 @@ ul li {
 .recent-work {
   padding: 80px 20px;
   text-align: center;
-  background: linear-gradient(to right, #e4f0ff, #d5ff4d, #a3f07e);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
 }
 
 .recent-work h1 {
-  font-size: 48px;
+  font-size: 68px;
   font-weight: 700;
   color: white;
-  margin-bottom: 40px;
-}
+  margin-bottom: 20px;
+} 
 
 .filters {
   display: inline-flex;
@@ -1071,7 +1074,7 @@ ul li {
 /* Recent-Service section Start */
 
 .services-banner {
-  background: linear-gradient(to right, #e4f0ff, #d5ff4d, #a3f07e);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
   padding: 60px 20px;
   text-align: center;
   color: white;
@@ -1115,7 +1118,7 @@ ul li {
 .icon-title img {
   width: 50px;
   height: 50px;
-  background: linear-gradient(to bottom right, #d2ff52, #71bf63);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1590,7 +1593,7 @@ ul li {
 .icon-circle {
   width: 50px;
   height: 50px;
-  background: linear-gradient(to bottom right, #d2ff52, #71bf63);
+  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
   border-radius: 50%;
   display: flex;
   align-items: center;

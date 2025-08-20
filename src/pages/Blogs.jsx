@@ -3,17 +3,6 @@ import React from "react";
 const Blogs = () => {
   return (
     <>
-      <section className="recent-work">
-        <h1>Latest Blogs</h1>
-        <div className="filters">
-          <button className="active">All Blog</button>
-          <button>Buisness</button>
-          <button>Startups</button>
-          <button>Marketing</button>
-          <button>Design</button>
-          <button>News & Events</button>
-        </div>
-      </section>
 
       {/* Card 1 */}
       <div className="blog-post">
