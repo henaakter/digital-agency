@@ -32,6 +32,10 @@ const Contact = () => {
             </form>
           </div>
         </div>
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
       </div>
 
       <div className="faq-section">

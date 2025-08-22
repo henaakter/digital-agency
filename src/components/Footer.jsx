@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <div className="footer-top">
+        <div className="global-container">
+            <div className="footer-top">
           <div className="footer-left">
             <h1>
               Have any
@@ -63,6 +64,12 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>Copyright ©ElveAgency Studio. All rights reserved</p>
+        </div>
+        </div>
+
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
         </div>
       </footer>
     </>

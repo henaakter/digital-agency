@@ -6,8 +6,8 @@ const Navbar = () => {
     <header className="navbar-container">
       <nav className="navbar">
         <Link to='/' className="logo">
-          <span className="logo-icon">::</span>
-          <span className="logo-text">ElveAgency</span>
+          <img src="./src/assets/images/Logo.png" alt="" />
+          
         </Link>
         <ul className="nav-links">
           <li>

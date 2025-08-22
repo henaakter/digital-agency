@@ -9,7 +9,7 @@
 
 body {
   font-family: "poppins";
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   color: #000;
 }
 
@@ -24,14 +24,17 @@ body {
 
 .navbar-container {
   padding: 10px 0;
-  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
+  position: absolute;
+  top: 10px;
+  z-index: 999;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1240px;
   background-color: white;
   padding: 12px 24px;
   margin: auto;
@@ -112,6 +115,11 @@ body {
   max-width: 1240px;
   width: 100%;
   margin: auto;
+}
+
+.nav-links li a{
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .video-box {
@@ -535,6 +543,8 @@ strong {
 /* Pricing section starts  */
 
 .pricing-section {
+  /* max-width: 1240px; */
+  /* margin: 0 100px; */
   margin-bottom: 150px;
 }
 
@@ -623,17 +633,6 @@ strong {
 .price-btn:hover {
   background: #000;
   color: #e4f0ff;
-}
-
-ul {
-  list-style: none;
-  padding-top: 25px;
-}
-
-ul li {
-  margin-bottom: 16px;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .cta-box {
@@ -787,10 +786,24 @@ ul li {
 /* footer section start */
 
 .footer {
-  color: #000;
-  /* max-width: 1240px; */
   padding: 60px 40px 20px;
-  background: linear-gradient(to right, #e4f0ff, #d5f07d, #acec8e);
+  position: relative;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.footer .shape{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.footer .shape img{
+  width: 100%;
+  height: 100%;
 }
 
 .footer-top {
@@ -1172,15 +1185,35 @@ ul li {
 /* Recent-contact section start */
 
 .contact-container {
+  position: relative;
+  z-index: 1;
   text-align: center;
-  padding: 50px 20px 20px;
+  padding: 180px 20px 20px;
+  overflow: hidden;
+  
+}
+
+.contact-container .shape{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.contact-container .shape img{
+  width: 100%;
+  height: 100%;
 }
 
 .contact-container h1 {
-  font-size: 48px;
-  font-weight: 600;
-  color: rgb(75, 72, 72);
-  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+font-weight: 600;
+font-size: 100px;
+line-height: 112px;
+text-align: center;
+letter-spacing: -0.06em;
+color: #FEFFFE;
 }
 
 .contact-card {
@@ -1200,6 +1233,10 @@ ul li {
   flex: 1;
   min-width: 280px;
   margin: 10px;
+}
+
+.contact-info {
+  text-align: start;
 }
 
 .contact-info h2,
@@ -1379,14 +1416,6 @@ h2 {
 p {
   margin-bottom: 20px;
   color: #444;
-}
-
-ul {
-  padding-left: 20px;
-  margin-bottom: 30px;
-}
-ul li {
-  margin-bottom: 10px;
 }
 
 .image-block {
