@@ -13,7 +13,7 @@ body {
   color: #000;
 }
 
-.global-container{
+.global-container {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
@@ -85,7 +85,7 @@ body {
   text-align: center;
 }
 
-.container .shape{
+.container .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -94,7 +94,7 @@ body {
   pointer-events: none;
 }
 
-.container .shape img{
+.container .shape img {
   width: 100%;
   height: 100%;
 }
@@ -130,7 +130,7 @@ body {
   margin: auto;
 }
 
-.nav-links li a{
+.nav-links li a {
   font-size: 16px;
   font-weight: 500;
 }
@@ -230,22 +230,21 @@ body {
   color: white;
 }
 
-
 .blogs-section .shape {
   position: absolute;
   width: 100%;
   height: 90%;
   top: 0;
   z-index: -1;
-    pointer-events: none;
+  pointer-events: none;
 }
 
-.blogs-section .shape img{
+.blogs-section .shape img {
   width: 100%;
-   height: 90%;
+  height: 90%;
 }
 
-.latests{
+.latests {
   text-align: center;
   font-size: 72px;
   font-weight: 600;
@@ -495,12 +494,12 @@ strong {
 }
 
 .testimonial-content h2 {
-font-weight: 600;
-font-size: 72px;
-line-height: 80px;
-letter-spacing: -0.04em;
-color: #0C0407;
-margin-top: 180px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 80px;
+  letter-spacing: -0.04em;
+  color: #0c0407;
+  margin-top: 180px;
 }
 
 .testimonial-container {
@@ -589,7 +588,7 @@ margin-top: 180px;
   margin-bottom: 150px;
 }
 
-.pricing-section .shape{
+.pricing-section .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -598,7 +597,7 @@ margin-top: 180px;
   pointer-events: none;
 }
 
-.pricing-section .shape img{
+.pricing-section .shape img {
   width: 100%;
   height: 100%;
 }
@@ -848,7 +847,7 @@ margin-top: 180px;
   overflow-x: clip;
 }
 
-.footer .shape{
+.footer .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -857,7 +856,7 @@ margin-top: 180px;
   pointer-events: none;
 }
 
-.footer .shape img{
+.footer .shape img {
   width: 100%;
   height: 100%;
 }
@@ -937,7 +936,7 @@ margin-top: 180px;
   text-align: center;
 }
 
-.recent-work .shape{
+.recent-work .shape {
   position: absolute;
   width: 100%;
   height: 90%;
@@ -946,7 +945,7 @@ margin-top: 180px;
   pointer-events: none;
 }
 
-.recent-work .shape img{
+.recent-work .shape img {
   width: 100%;
   height: 90%;
 }
@@ -956,7 +955,7 @@ margin-top: 180px;
   font-weight: 700;
   color: white;
   margin-bottom: 20px;
-} 
+}
 
 .filters {
   display: inline-flex;
@@ -997,7 +996,7 @@ margin-top: 180px;
   padding: 180px 20px;
 }
 
-.project-section .shape{
+.project-section .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1006,11 +1005,10 @@ margin-top: 180px;
   pointer-events: none;
 }
 
-.project-section .shape img{
+.project-section .shape img {
   width: 100%;
   height: 100%;
 }
-
 
 .project-section h1 {
   margin-bottom: 50px;
@@ -1018,7 +1016,7 @@ margin-top: 180px;
   font-size: 100px;
   line-height: 112px;
   text-align: center;
-  color: #FEFFFE;
+  color: #fefffe;
 }
 
 .project-image {
@@ -1072,7 +1070,7 @@ margin-top: 180px;
   font-weight: 500;
   font-size: 60px;
   line-height: 92%;
-  color: #0C0407;
+  color: #0c0407;
 }
 
 .project-overview p {
@@ -1111,7 +1109,7 @@ margin-top: 180px;
   font-weight: 500;
   font-size: 60px;
   line-height: 92%;
-  color: #0C0407;
+  color: #0c0407;
 }
 
 .text-section p {
@@ -1180,7 +1178,7 @@ margin-top: 180px;
   color: white;
 }
 
-.services-banner .shape{
+.services-banner .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1189,11 +1187,10 @@ margin-top: 180px;
   pointer-events: none;
 }
 
-.services-banner .shape img{
+.services-banner .shape img {
   width: 100%;
   height: 100%;
 }
-
 
 .services-banner h2 {
   margin: 0;
@@ -1202,7 +1199,7 @@ margin-top: 180px;
   line-height: 112px;
   text-align: center;
   letter-spacing: -0.06em;
-  color: #FEFFFE;
+  color: #fefffe;
 }
 
 .services-detail-section {
@@ -1296,10 +1293,9 @@ margin-top: 180px;
   text-align: center;
   padding: 180px 20px 20px;
   overflow: hidden;
-  
 }
 
-.contact-container .shape{
+.contact-container .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1308,18 +1304,18 @@ margin-top: 180px;
   pointer-events: none;
 }
 
-.contact-container .shape img{
+.contact-container .shape img {
   width: 100%;
   height: 100%;
 }
 
 .contact-container h1 {
-font-weight: 600;
-font-size: 100px;
-line-height: 112px;
-text-align: center;
-letter-spacing: -0.06em;
-color: #FEFFFE;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 112px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #fefffe;
 }
 
 .contact-card {
@@ -1474,7 +1470,7 @@ color: #FEFFFE;
   color: #000;
 }
 
-.featured-article .shape{
+.featured-article .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1483,7 +1479,7 @@ color: #FEFFFE;
   pointer-events: none;
 }
 
-.featured-article .shape img{
+.featured-article .shape img {
   width: 100%;
   height: 100%;
 }
@@ -1504,7 +1500,7 @@ color: #FEFFFE;
   font-weight: 600;
   font-size: 80px;
   line-height: 1.2;
-  color: #FEFFFE;
+  color: #fefffe;
 }
 
 .meta {
@@ -1580,7 +1576,7 @@ p {
   font-size: 72px;
   line-height: 80px;
   text-align: center;
-  color: #0C0407;
+  color: #0c0407;
 }
 
 .cards-container {
@@ -1648,7 +1644,7 @@ p {
   margin: 0 auto;
 }
 
-.learn-container .shape{
+.learn-container .shape {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1657,7 +1653,7 @@ p {
   pointer-events: none;
 }
 
-.learn-container .shape img{
+.learn-container .shape img {
   width: 100%;
   height: 100%;
 }
@@ -1670,7 +1666,7 @@ p {
   line-height: 112px;
   text-align: center;
   letter-spacing: -0.06em;
-  color: #FEFFFE;
+  color: #fefffe;
 }
 
 .video-section {
@@ -1802,7 +1798,6 @@ p {
   padding: 80px 40px;
   align-items: flex-start;
   margin: 0 auto;
-
 }
 
 .team-grid {
@@ -1846,7 +1841,7 @@ p {
   font-size: 72px;
   line-height: 80px;
   text-align: center;
-  color: #0C0407;
+  color: #0c0407;
 }
 
 .awards-grid {
