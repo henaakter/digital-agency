@@ -112,6 +112,11 @@ const Service = () => {
     <>
       {/* Services Banner */}
       <section className="services-banner">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
         <h2>
           Services
           <br />

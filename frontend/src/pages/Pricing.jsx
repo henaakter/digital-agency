@@ -5,6 +5,11 @@ const Pricing = () => {
     <>
       {/* Pricing section starts */}
       <section className="pricing-section">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
         <h1 className="title">
           Flexible pricing <br />
           for every need

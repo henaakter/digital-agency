@@ -5,6 +5,18 @@ const Blogs = () => {
     <>
 
       {/* Card 1 */}
+      <section className="blogs-section">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
+        <h1 className="latests">
+          Latest Blogs
+        </h1>
+
+        </section>
+
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">

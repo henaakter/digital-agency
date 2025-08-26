@@ -4,6 +4,11 @@ const Home = () => {
   return (
     <>
       <section className="container">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
         <div className="header-content">
           <h1>
             Building Digital <br /> Brand & Experience
@@ -47,7 +52,7 @@ const Home = () => {
       </div>
 
       <section className="service-section">
-        <h2 className="section-title">
+        <h2 className="sections-titles">
           How we helped <br /> other succeed
         </h2>
       </section>
@@ -144,7 +149,9 @@ const Home = () => {
       </div>
 
       <div className="about-container">
-        <div className="about-logo">::</div>
+        <div className="about-logo">
+          <img src="./src/assets/images/Group0.png" alt="" />
+        </div>
         <h1 className="about-content">
           Founded by computer enthusiasts, we are a digital design firm.
         </h1>

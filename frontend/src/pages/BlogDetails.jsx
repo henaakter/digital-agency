@@ -4,6 +4,11 @@ const BlogDetails = () => {
   return (
     <>
       <section className="featured-article">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
         <div className="content">
           <span className="category">Business</span>
           <h1 className="headline">

@@ -4,6 +4,11 @@ const About = () => {
   return (
     <>
       <div className="learn-container">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
         <div className="learn-heading">
           <h1>
             Learn More <br /> About Us
@@ -91,7 +96,7 @@ const About = () => {
       </section>
 
       <section className="team-section">
-        <h2 className="section-title">
+        <h2 className="section-head">
           The people behind
           <br />
           the progress

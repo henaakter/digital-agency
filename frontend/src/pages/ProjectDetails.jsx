@@ -5,6 +5,11 @@ const ProjectDetails = () => {
     <>
       {/* Banner section start */}
       <section className="project-section">
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
         <h1>Boldstream</h1>
 
         <div className="project-image">

@@ -4,7 +4,14 @@ const Projects = () => {
   return (
     <>
       <section className="recent-work">
-        <h1>Recent Work</h1>
+
+        <div className="shape">
+          <img src="./src/assets/images/shape1.png" alt="" />
+        </div>
+
+        <div>
+          <h1>Recent Work</h1>
+        </div>
       </section>
 
       <div className="blog-post">
