@@ -60,17 +60,14 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <div className="banner-img">
         <img src="/src/assets/images/Frame.png" alt="" />
       </div>
-
       <section className="service-section">
         <h2 className="sections-titles">
           How we helped <br /> other succeed
         </h2>
       </section>
-
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">
@@ -161,7 +158,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div className="about-container">
         <div className="about-logo">
           <img src="./src/assets/images/Group0.png" alt="" />
@@ -182,7 +178,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-
+      {/* .. */}
       <section className="service-sections">
         <h2 className="section-heading">
           What services <br /> we provide?
@@ -237,7 +233,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="testimonial-section">
         <div className="testimonial-content">
           <h2>
@@ -395,7 +390,6 @@ const Home = () => {
           </Swiper>
         </div>
       </section>
-
       <section className="pricing-section">
         <h1 className="title">
           Customizable <br /> Pricing Options
@@ -469,7 +463,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="clients-section">
         <h2 className="clients-heading">Our latest Clients</h2>
         <div className="clients-grid">
@@ -514,7 +507,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <div className="faq-section">
         <div className="faq-title">
           <h1>
