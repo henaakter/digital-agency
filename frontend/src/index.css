@@ -58,7 +58,10 @@ body {
 .nav-links a {
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+}
+
+.nav-links ul li{
+  margin-bottom: 0px;
 }
 
 .contact-btn {
@@ -96,7 +99,7 @@ body {
 
 .container .shape img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .header-content {
@@ -554,7 +557,7 @@ strong {
   border-radius: 50%;
 }
 
-.arrows {
+/* .arrows {
   display: flex;
   justify-content: flex-end;
   margin-top: 30px;
@@ -576,7 +579,7 @@ strong {
 .arrow-btn:hover {
   background-color: #000;
   color: #fff;
-}
+} */
 
 /* testimonial section ends */
 
@@ -1881,116 +1884,240 @@ p {
 
 /* Responsive design  */
 
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    border-radius: 20px;
-  }
+/* Large laptop screens (1440px and below) */
 
-  .nav-links {
-    flex-direction: column;
-    width: 100%;
-    margin-top: 10px;
-    gap: 10px;
-  }
-
-  .container {
-    padding: 40px 10px;
-  }
-
-  .header-content h1 {
-    font-size: 42px;
-  }
-
-  .banner {
-    flex-direction: column;
-    padding: 30px 20px;
-  }
-
-  .banner h3 {
-    font-size: 32px;
-  }
-
-  .banner p {
-    font-size: 14px;
-  }
-
-  .banner-container {
-    flex-direction: column;
-    padding: 20px 10px;
-  }
-
-  .section-title {
-    font-size: 42px;
-    line-height: 1.3;
-  }
-
-  .blog-title {
-    flex-direction: column;
-    width: 90%;
-  }
-
-  .project-about img {
-    max-width: 100%;
-  }
-
-  .blog-content {
-    margin-left: 0;
-    padding: 10px;
-  }
-
-  .about-container {
-    padding: 40px 20px;
-    margin-left: 0;
-  }
-
-  .about-content,
-  .about-desc {
-    font-size: 36px;
-    line-height: 1.4;
-  }
+@media (max-width: 1440px) {
+.navbar {
+  padding: 10px 20px;
+  border-radius: 40px;
 }
 
-@media (max-width: 480px) {
-  .navbar {
-    padding: 10px;
-  }
-
-  .logo {
-    font-size: 20px;
-  }
-
-  .nav-links a,
-  .contact-btn {
-    font-size: 16px;
-  }
-
-  .header-content h1 {
-    font-size: 32px;
-  }
-
-  .header-content p {
-    font-size: 14px;
-  }
-
-  .section-title h1 {
-    font-size: 36px;
-  }
-
-  .blog-sub {
-    font-size: 24px;
-  }
-
-  .about-content,
-  .about-desc {
-    font-size: 28px;
-    line-height: 1.3;
-  }
-
-  .buttons .project-btn {
-    margin-left: 0;
-    width: 100%;
-  }
+.nav-links {
+  gap: 20px;
 }
+
+.nav-links a {
+  font-size: 18px;
+}
+
+.contact-btn {
+  font-size: 18px;
+  padding: 8px 18px;
+}
+
+.container {
+  padding: 150px 20px;
+}
+
+.header-content h1 {
+  font-size: 56px;
+}
+
+.header-content p {
+  font-size: 15px;
+  max-width: 600px;
+}
+
+.banners {
+  padding: 40px 60px;
+}
+
+.banner h3 {
+  font-size: 36px;
+}
+
+.sections-titles {
+  font-size: 55px;
+}
+
+.service-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  max-width: 500px;
+  height: auto;
+  padding: 24px 20px;
+}
+
+.icon-box {
+  width: 70px;
+  height: 70px;
+  margin-left: 30px;
+}
+
+.service-heading {
+  font-size: 32px;
+  margin-left: 30px;
+}
+
+.service-desc {
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.blog-sub {
+  font-size: 32px;
+}
+
+.blog-content .project-btn {
+  width: 140px;
+  font-size: 12px;
+}
+
+.project-about img {
+  max-width: 100%;
+}
+
+.about-content, .about-desc {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.buttons .project-btn {
+  font-size: 14px;
+  padding: 8px 18px;
+}
+
+.testimonial-content h2 {
+  font-size: 60px;
+}
+
+.testimonial-card {
+padding: 20px;
+}
+
+.testimonial-desc {
+  font-size: 14px;
+}
+
+.user h3 {
+  font-size: 14px;
+}
+
+.user h6 {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.card {
+  width: 350px;
+  padding: 18px 18px;
+}
+
+.price-btn {
+  padding: 10px 110px;
+  font-size: 12px;
+}
+
+.cta-box p {
+  font-size: 28px;
+}
+
+.price-btns {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.clients-heading {
+  font-size: 60px;
+}
+
+.faq-title h1 {
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.faq-question {
+  font-size: 20px;
+  padding: 16px;
+}
+
+.faq-answer {
+  font-size: 14px;
+}
+
+.footer-left h1 {
+  font-size: 72px;
+  line-height: 90px;
+}
+
+.footer-links a {
+  font-size: 18px;
+}
+
+.recent-work h1, .project-section h1, .services-banner h2, .learn-heading h1 {
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.filters button {
+  padding: 8px 14px;
+  font-size: 13px;
+}
+
+.project-overview h2, .text-section h1 {
+  font-size: 50px;
+}
+
+.project-info .info-card {
+  min-width: 140px;
+}
+
+.images-grid .image-card {
+  flex: 1 1 280px;
+}
+
+.value-card h3 {
+  font-size: 32px;
+}
+
+.value-card p {
+  font-size: 16px;
+}
+
+.team-grid .team-member {
+  width: 160px;
+}
+
+.team-section .section-head {
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.awards-section .section-title {
+  font-size: 60px;
+}
+
+.award-card {
+  width: 180px;
+  padding: 20px 16px;
+}
+
+.award-card img {
+  width: 50px;
+}
+
+.video-section, .story-section {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paragraphs {
+  gap: 20px;
+}
+
+.paragraphs p {
+  flex: 1 1 280px;
+}
+
+.images {
+  flex-wrap: wrap;
+  gap: 16px;
+}
+}
+

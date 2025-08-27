@@ -156,10 +156,10 @@ const Service = () => {
             Hear it from <br /> our clients
           </h2>
         </div>
-        <div className="arrows">
+        {/* <div className="arrows">
           <button className="arrow-btn">&larr;</button>
           <button className="arrow-btn">&rarr;</button>
-        </div>
+        </div> */}
         <div className="testimonial-container">
           {testimonials.map((t, i) => (
             <div className="testimonial-card" key={i}>

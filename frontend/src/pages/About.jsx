@@ -197,10 +197,10 @@ const About = () => {
           </h2>
         </div>
 
-        <div className="arrows">
+        {/* <div className="arrows">
           <button className="arrow-btn">&larr;</button>
           <button className="arrow-btn">&rarr;</button>
-        </div>
+        </div> */}
 
         <div className="testimonial-container">
           <div className="testimonial-card">
