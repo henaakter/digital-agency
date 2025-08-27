@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import Accordion from "react-bootstrap/Accordion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import ModalVideo from "react-modal-video";
 
 const About = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <div className="learn-container">
@@ -17,7 +22,17 @@ const About = () => {
 
         <div className="video-section">
           <div className="video-wrapper">
-            <img src="./src/assets/images/Frame (4).png" alt="" />
+            <img src="./src/assets/images/Frame(4).png" alt="video-thumb" />
+            <button onClick={() => setOpen(true)} className="play-button">
+              ▶
+            </button>
+            <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={isOpen}
+              videoId="MHVEVcJlUAk"
+              onClose={() => setOpen(false)}
+            />
           </div>
         </div>
       </div>
@@ -196,75 +211,155 @@ const About = () => {
             Hear it from <br /> our clients
           </h2>
         </div>
-
         {/* <div className="arrows">
           <button className="arrow-btn">&larr;</button>
           <button className="arrow-btn">&rarr;</button>
         </div> */}
 
-        <div className="testimonial-container">
-          <div className="testimonial-card">
-            <p className="testimonial-desc">
-              “Their team didn't just take the project on; they became an
-              integral extension of our business. From the very beginning, they
-              immersed themselves in our brand and culture, that fit perfectly
-              with our objectives.”
-            </p>
-            <div className="user">
-              <div className="info">
-                <h3>Juan Rath</h3>
-                <h6>Head of Product</h6>
+        <div className="testimonial-swiper">
+          <Swiper
+            modules={[Navigation, Autoplay]}
+            spaceBetween={30}
+            slidesPerView={4}
+            navigation
+            loop={true}
+            autoplay={{ delay: 4000, disableOnInteraction: false }}
+          >
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “Their team didn't just take the project on; they became an
+                  integral extension of our business. From the very beginning,
+                  they immersed themselves in our brand and culture, that fit
+                  perfectly with our objectives.”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Juan Rath</h3>
+                    <h6>Head of Product</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
               </div>
-              <img src="./src/assets/images/Ellipse 2.png" alt="" />
-            </div>
-          </div>
-
-          <div className="testimonial-card">
-            <p className="testimonial-desc">
-              “The team went above and beyond to deliver a website that exceeded
-              our expectations. Their attention to detail and commitment to
-              quality made all the difference seen a significant increase in
-              traffic customer engagement!”
-            </p>
-            <div className="user">
-              <div className="info">
-                <h3>Francis Kovacek</h3>
-                <h6>Founder</h6>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “The team went above and beyond to deliver a website that
+                  exceeded our expectations. Their attention to detail and
+                  commitment to quality made all the difference seen a
+                  significant increase in traffic customer engagement!”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Francis Kovacek</h3>
+                    <h6>Founder</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
               </div>
-              <img src="./src/assets/images/Ellipse 2.png" alt="" />
-            </div>
-          </div>
-
-          <div className="testimonial-card">
-            <p className="testimonial-desc">
-              “The level of communication and collaboration we experienced while
-              working with the agency was unparalleled. Not only were they
-              responsive but also proactive with regular updates.”
-            </p>
-            <div className="user">
-              <div className="info">
-                <h3>Diana Wiegand</h3>
-                <h6>CEO</h6>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “The level of communication and collaboration we experienced
+                  while working with the agency was unparalleled. Not only were
+                  they responsive but also proactive with regular updates.”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Diana Wiegand</h3>
+                    <h6>CEO</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
               </div>
-              <img src="./src/assets/images/Ellipse 2.png" alt="" />
-            </div>
-          </div>
-
-          <div className="testimonial-card">
-            <p className="testimonial-desc">
-              “Their team didn’t just take the project on; they became an
-              integral extension of our business. From the very beginning, they
-              immersed themselves in our brand and culture, that fit perfectly
-              with our objectives.”
-            </p>
-            <div className="user">
-              <div className="info">
-                <h3>Jack</h3>
-                <h6>Employee</h6>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “Their team didn’t just take the project on; they became an
+                  integral extension of our business. From the very beginning,
+                  they immersed themselves in our brand and culture, that fit
+                  perfectly with our objectives.”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Jack</h3>
+                    <h6>Employee</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
               </div>
-              <img src="./src/assets/images/Ellipse 2.png" alt="" />
-            </div>
-          </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “Their team didn't just take the project on; they became an
+                  integral extension of our business. From the very beginning,
+                  they immersed themselves in our brand and culture, that fit
+                  perfectly with our objectives.”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Juan Rath</h3>
+                    <h6>Head of Product</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “The team went above and beyond to deliver a website that
+                  exceeded our expectations. Their attention to detail and
+                  commitment to quality made all the difference seen a
+                  significant increase in traffic customer engagement!”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Francis Kovacek</h3>
+                    <h6>Founder</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “The level of communication and collaboration we experienced
+                  while working with the agency was unparalleled. Not only were
+                  they responsive but also proactive with regular updates.”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Diana Wiegand</h3>
+                    <h6>CEO</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="testimonial-card">
+                <p className="testimonial-desc">
+                  “Their team didn’t just take the project on; they became an
+                  integral extension of our business. From the very beginning,
+                  they immersed themselves in our brand and culture, that fit
+                  perfectly with our objectives.”
+                </p>
+                <div className="user">
+                  <div className="info">
+                    <h3>Jack</h3>
+                    <h6>Employee</h6>
+                  </div>
+                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </section>
 
@@ -309,47 +404,38 @@ const About = () => {
         </div>
 
         <div className="faq-container">
-          <div className="faq-item open">
-            <button className="faq-question">
-              How do I contact you for inquiries or collaborations?
-              <span className="icon">-</span>
-            </button>
-
-            <div className="faq-answer">
-              Best the average blind and that accordingly pointing, out the to
-              bold, good my believed the rattling experiments friends couldn't
-              scolded unable to many line may their times, propitiously is
-              themselves, was discipline the be the seen escape.
-            </div>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              What services does your digital agency offer?
-              <span className="icon">+</span>
-            </button>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              How long does it take to build a website?
-              <span className="icon">+</span>
-            </button>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              What is included in your digital marketing services?
-              <span className="icon">+</span>
-            </button>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              Can you create content for our social media accounts?
-              <span className="icon">+</span>
-            </button>
-          </div>
+          <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>How do I contact you for inquiries or collaborations?</Accordion.Header>
+              <Accordion.Body>
+              Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>What services does your digital agency offer?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+              <Accordion.Item eventKey="2">
+              <Accordion.Header>How long does it take to build a website?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+              <Accordion.Item eventKey="3">
+              <Accordion.Header>What is included in your digital marketing services?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+              <Accordion.Item eventKey="4">
+              <Accordion.Header>Can you create content for our social media accounts?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
       </div>
     </>

@@ -1,5 +1,7 @@
 import React from "react";
 
+import Accordion from "react-bootstrap/Accordion";
+
 const Contact = () => {
   return (
     <>
@@ -50,46 +52,38 @@ const Contact = () => {
         </div>
 
         <div className="faq-container">
-          <div className="faq-item open">
-            <button className="faq-question">
-              How do I contact you for inquiries or collaborations?
-              <span className="icon">-</span>
-            </button>
-            <div className="faq-answer">
-              Best the average blind and that accordingly pointing, out the to
-              bold, good my believed the rattling experiments friends couldn't
-              scolded unable to many line may their times, propitiously is
-              themselves, was discipline the be the seen escape.
-            </div>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              What services does your digital agency offer?
-              <span className="icon">+</span>
-            </button>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              How long does it take to build a website?
-              <span className="icon">+</span>
-            </button>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              What is included in your digital marketing services?
-              <span className="icon">+</span>
-            </button>
-          </div>
-
-          <div className="faq-item">
-            <button className="faq-question">
-              Can you create content for our social media accounts?
-              <span className="icon">+</span>
-            </button>
-          </div>
+          <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+              <Accordion.Header>How do I contact you for inquiries or collaborations?</Accordion.Header>
+              <Accordion.Body>
+              Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+              <Accordion.Header>What services does your digital agency offer?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+              <Accordion.Item eventKey="2">
+              <Accordion.Header>How long does it take to build a website?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+              <Accordion.Item eventKey="3">
+              <Accordion.Header>What is included in your digital marketing services?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+              <Accordion.Item eventKey="4">
+              <Accordion.Header>Can you create content for our social media accounts?</Accordion.Header>
+              <Accordion.Body>
+                Best the average blind and that accordingly pointing, out the to bold, good my believed the rattling experiments friends couldn't scolded unable to many line may their times, propitiously is themselves, was discipline the be the seen escape.
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
         </div>
       </div>
     </>
