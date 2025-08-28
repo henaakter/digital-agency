@@ -87,6 +87,12 @@ body {
 .container {
   padding: 180px 20px;
   text-align: center;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  min-width: 100%;
+  margin: 0 auto;
+  overflow-x: clip;
 }
 
 .container .shape {
@@ -655,7 +661,7 @@ strong {
   margin-right: 10px;
 }
 
-.badge {
+.pricing-badge {
   background: #f0f0f0;
   font-size: 12px;
   padding: 4px 6px;
@@ -960,6 +966,9 @@ strong {
 .recent-work {
   padding: 180px 20px;
   text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow-x: clip;
 }
 
 .recent-work .shape {
@@ -1202,6 +1211,9 @@ strong {
   padding: 180px 20px;
   text-align: center;
   color: white;
+  position: relative;
+  z-index: 1;
+  overflow-x: clip;
 }
 
 .services-banner .shape {
@@ -1687,9 +1699,8 @@ p {
 }
 
 .swiper-button-next{
-  right: 0 !important;
+  right: 0 !important;  
 }
-
 .learn-container {
   text-align: center;
   padding: 40px 20px;

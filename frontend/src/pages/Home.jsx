@@ -399,7 +399,7 @@ const Home = () => {
           <div className="card">
             <div className="card-header">
               <h3>Starter</h3>
-              <span className="badge">Small Projects</span>
+              <span className="pricing-badge">Small Projects</span>
             </div>
             <p className="pricing-desc">Perfect for New and Small Businesses</p>
             <div className="price">
@@ -417,7 +417,7 @@ const Home = () => {
           <div className="card">
             <div className="card-header">
               <h3>Professional</h3>
-              <span className="badge">Big Projects</span>
+              <span className="pricing-badge">Big Projects</span>
             </div>
             <p className="pricing-desc">
               Excellent for Growing Enterprises & Projects
@@ -437,7 +437,7 @@ const Home = () => {
           <div className="card">
             <div className="card-header">
               <h3>Full-Package</h3>
-              <span className="badge">Full Product</span>
+              <span className="pricing-badge">Full Product</span>
             </div>
             <p className="pricing-desc">
               Tailored Services for Large Enterprises
