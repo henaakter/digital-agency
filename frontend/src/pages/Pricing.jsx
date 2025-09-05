@@ -11,7 +11,7 @@ const Pricing = () => {
       <section className="pricing-section">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <h1 className="title">
@@ -123,7 +123,7 @@ const Pricing = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -140,7 +140,7 @@ const Pricing = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -156,7 +156,7 @@ const Pricing = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -173,7 +173,7 @@ const Pricing = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -190,7 +190,7 @@ const Pricing = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -207,7 +207,7 @@ const Pricing = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -223,7 +223,7 @@ const Pricing = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -240,7 +240,7 @@ const Pricing = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -256,7 +256,7 @@ const Pricing = () => {
           {[...Array(10)].map((_, i) => (
             <div className="client-card" key={i}>
               <img
-                src={`./src/assets/images/Company logo${
+                src={`/Company logo${
                   i === 0 ? "" : ` (${i})`
                 }.png`}
                 alt=""

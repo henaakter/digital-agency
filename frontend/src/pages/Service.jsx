@@ -8,7 +8,7 @@ const Service = () => {
   const services = [
     {
       title: "Brand Identity",
-      icon: "./src/assets/images/bubble-chart-line.png",
+      icon: "/bubble-chart-line.png",
       desc: "Crafting visually stunning, user-centered websites tailored to your brand and business goals. Ongoing support and updates to ensure your website remains secure, fast, and up-to-date.",
       list: [
         "Unique logo and visual style creation",
@@ -16,11 +16,11 @@ const Service = () => {
         "Rebranding for a refreshed look",
         "Consistent visual and verbal identity",
       ],
-      image: "./src/assets/images/Rectangle 63 (8).png",
+      image: "/Rectangle 63 (8).png",
     },
     {
       title: "Web Design",
-      icon: "./src/assets/images/computer-line.png",
+      icon: "/computer-line.png",
       desc: "Building websites optimized for all devices, from desktop to mobile. Ongoing support and updates to ensure your website remains secure, fast, and up-to-date with trends.",
       list: [
         "Defining goals and understanding",
@@ -28,11 +28,11 @@ const Service = () => {
         "Custom-built on Webflow, WordPress, and more",
         "Launching and maintaining the website",
       ],
-      image: "./src/assets/images/Rectangle 63 (14).png",
+      image: "/Rectangle 63 (14).png",
     },
     {
       title: "Web Development",
-      icon: "./src/assets/images/code-s-slash-line.png",
+      icon: "/code-s-slash-line.png",
       desc: "Developing impactful logos and cohesive visual identities that resonate with your target audience. Designing business cards, brochures, and digital assets that align with your brand identity.",
       list: [
         "Research, development and coding",
@@ -40,11 +40,11 @@ const Service = () => {
         "Quality assurance, deployment and launch",
         "Ongoing maintenance and updates",
       ],
-      image: "./src/assets/images/Rectangle 63 (15).png",
+      image: "/Rectangle 63 (15).png",
     },
     {
       title: "Digital Marketing",
-      icon: "./src/assets/images/pie-chart-line.png",
+      icon: "/pie-chart-line.png",
       desc: "Optimizing your website and content to rank higher on search engines and attract organic traffic. Designing and executing personalized email campaigns to conversions.",
       list: [
         "Start by defining your goals,",
@@ -52,7 +52,7 @@ const Service = () => {
         "Conducting competitor research",
         "Developing a content strategy",
       ],
-      image: "./src/assets/images/Rectangle 63 (9).png",
+      image: "/Rectangle 63 (9).png",
     },
   ];
 
@@ -61,25 +61,25 @@ const Service = () => {
       desc: "Their team didn't just take the project on; they became an integral extension of our business. From the very beginning, they immersed themselves in our brand and culture, that fit perfectly with our objectives.",
       name: "Juan Rath",
       role: "Head of Product",
-      img: "./src/assets/images/Ellipse 2.png",
+      img: "/Ellipse 2.png",
     },
     {
       desc: "The team went above and beyond to deliver a website that exceeded our expectations. Their attention to detail and commitment to quality made all the difference seen a significant increase in traffic customer engagement!",
       name: "Francis Kovacek",
       role: "Founder",
-      img: "./src/assets/images/Ellipse 2.png",
+      img: "/Ellipse 2.png",
     },
     {
       desc: "The level of communication and collaboration we experienced while working with the agency was unparalleled. Not only were they responsive but also proactive with regular updates.",
       name: "Diana Wiegand",
       role: "CEO",
-      img: "./src/assets/images/Ellipse 2.png",
+      img: "/Ellipse 2.png",
     },
     {
       desc: "Their team didn’t just take the project on; they became an integral extension of our business. From the very beginning, they immersed themselves in our brand and culture, that fit perfectly with our objectives.",
       name: "Jack",
       role: "Employee",
-      img: "./src/assets/images/Ellipse 2.png",
+      img: "/Ellipse 2.png",
     },
   ];
 
@@ -118,7 +118,7 @@ const Service = () => {
       <section className="services-banner">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <h2>
@@ -187,7 +187,7 @@ const Service = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -204,7 +204,7 @@ const Service = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -220,7 +220,7 @@ const Service = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -237,7 +237,7 @@ const Service = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -254,7 +254,7 @@ const Service = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -271,7 +271,7 @@ const Service = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -287,7 +287,7 @@ const Service = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -304,7 +304,7 @@ const Service = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>

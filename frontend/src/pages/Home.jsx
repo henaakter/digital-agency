@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <section className="container">
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <div className="header-content">
@@ -28,7 +28,7 @@ const Home = () => {
 
         <div className="banner-container">
           <div className="video-box">
-            <img src="/src/assets/images/video-thumb.png" alt="video-thumb" />
+            <img src="/video-thumb.png" alt="video-thumb" />
             <button onClick={() => setOpen(true)} className="play-button">
               ▶
             </button>
@@ -61,7 +61,7 @@ const Home = () => {
         </div>
       </section>
       <div className="banner-img">
-        <img src="/src/assets/images/Frame.png" alt="" />
+        <img src="/Frame.png" alt="" />
       </div>
       <section className="service-section">
         <h2 className="sections-titles">
@@ -71,7 +71,7 @@ const Home = () => {
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">
-            <img src="/src/assets/images/Rectangle 63 (8).png" alt="" />
+            <img src="/Rectangle 63 (8).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -93,7 +93,7 @@ const Home = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="/src/assets/images/Rectangle 63 (9).png" alt="" />
+            <img src="/Rectangle 63 (9).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -115,7 +115,7 @@ const Home = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="/src/assets/images/Rectangle 63 (10).png" alt="" />
+            <img src="/Rectangle 63 (10).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -138,7 +138,7 @@ const Home = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="/src/assets/images/Rectangle 63 (11).png" alt="" />
+            <img src="/Rectangle 63 (11).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -160,7 +160,7 @@ const Home = () => {
       </div>
       <div className="about-container">
         <div className="about-logo">
-          <img src="./src/assets/images/Group0.png" alt="" />
+          <img src="/Group0.png" alt="" />
         </div>
         <h1 className="about-content">
           Founded by computer enthusiasts, we are a digital design firm.
@@ -186,7 +186,7 @@ const Home = () => {
         <div className="service-grid">
           <div className="service-card">
             <div className="icon-box">
-              <img src="/src/assets/images/bubble-chart-line.png" alt="" />
+              <img src="/bubble-chart-line.png" alt="" />
             </div>
             <h3 className="service-heading">Brand Identity</h3>
             <p className="service-desc">
@@ -198,7 +198,7 @@ const Home = () => {
 
           <div className="service-card">
             <div className="icon-box">
-              <img src="/src/assets/images/computer-line.png" alt="" />
+              <img src="/computer-line.png" alt="" />
             </div>
             <h3 className="service-heading">Web Design</h3>
             <p className="service-desc">
@@ -210,7 +210,7 @@ const Home = () => {
 
           <div className="service-card">
             <div className="icon-box">
-              <img src="/src/assets/images/code-s-slash-line.png" alt="" />
+              <img src="/code-s-slash-line.png" alt="" />
             </div>
             <h3 className="service-heading">Web Development</h3>
             <p className="service-desc">
@@ -222,7 +222,7 @@ const Home = () => {
 
           <div className="service-card">
             <div className="icon-box">
-              <img src="/src/assets/images/pie-chart-line.png" alt="" />
+              <img src="/pie-chart-line.png" alt="" />
             </div>
             <h3 className="service-heading">Digital Marketing</h3>
             <p className="service-desc">
@@ -266,7 +266,7 @@ const Home = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -283,7 +283,7 @@ const Home = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -299,7 +299,7 @@ const Home = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -316,7 +316,7 @@ const Home = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -333,7 +333,7 @@ const Home = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -350,7 +350,7 @@ const Home = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -366,7 +366,7 @@ const Home = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -383,7 +383,7 @@ const Home = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -467,43 +467,43 @@ const Home = () => {
         <h2 className="clients-heading">Our latest Clients</h2>
         <div className="clients-grid">
           <div className="client-card">
-            <img src="/src/assets/images/Company logo.png" alt="" />
+            <img src="/Company logo.png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (1).png" alt="" />
+            <img src="/Company logo (1).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (2).png" alt="" />
+            <img src="/Company logo (2).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (3).png" alt="" />
+            <img src="/Company logo (3).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (4).png" alt="" />
+            <img src="/Company logo (4).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (5).png" alt="" />
+            <img src="/Company logo (5).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (6).png" alt="" />
+            <img src="/Company logo (6).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (7).png" alt="" />
+            <img src="/Company logo (7).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (8).png" alt="" />
+            <img src="/Company logo (8).png" alt="" />
           </div>
 
           <div className="client-card">
-            <img src="/src/assets/images/Company logo (9).png" alt="" />
+            <img src="/Company logo (9).png" alt="" />
           </div>
         </div>
       </section>

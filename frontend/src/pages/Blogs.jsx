@@ -8,7 +8,7 @@ const Blogs = () => {
       <section className="blogs-section">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <h1 className="latests">
@@ -20,7 +20,7 @@ const Blogs = () => {
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (16).png" alt="" />
+            <img src="/Rectangle 63 (16).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -49,7 +49,7 @@ const Blogs = () => {
       <div className="card-grids">
         {/* Card 1 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (17).png" alt="" />
+          <img src="/Rectangle 63 (17).png" alt="" />
           <div className="cardd-body">
             <span className="category">Startups</span>
             <h3 className="titles">
@@ -64,7 +64,7 @@ const Blogs = () => {
 
         {/* Card 2 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (24).png" alt="" />
+          <img src="/Rectangle 63 (24).png" alt="" />
           <div className="cardd-body">
             <span className="category">Marketing</span>
             <h3 className="titles">
@@ -79,7 +79,7 @@ const Blogs = () => {
 
         {/* Card 3 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (18).png" alt="" />
+          <img src="/Rectangle 63 (18).png" alt="" />
           <div className="cardd-body">
             <span className="category">Design</span>
             <h3 className="titles">
@@ -94,7 +94,7 @@ const Blogs = () => {
 
         {/* Card 4 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (25).png" alt="" />
+          <img src="/Rectangle 63 (25).png" alt="" />
           <div className="cardd-body">
             <span className="category">Design</span>
             <h3 className="titles">
@@ -109,7 +109,7 @@ const Blogs = () => {
 
         {/* Card 5 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (19).png" alt="" />
+          <img src="/Rectangle 63 (19).png" alt="" />
           <div className="cardd-body">
             <span className="category">Startups</span>
             <h3 className="titles">
@@ -124,7 +124,7 @@ const Blogs = () => {
 
         {/* Card 6 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (20).png" alt="" />
+          <img src="/Rectangle 63 (20).png" alt="" />
           <div className="cardd-body">
             <span className="category">News & Events</span>
             <h3 className="titles">
@@ -139,7 +139,7 @@ const Blogs = () => {
 
         {/* Card 7 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (21).png" alt="" />
+          <img src="/Rectangle 63 (21).png" alt="" />
           <div className="cardd-body">
             <span className="category">Marketing</span>
             <h3 className="titles">
@@ -154,7 +154,7 @@ const Blogs = () => {
 
         {/* Card 8 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (22).png" alt="" />
+          <img src="/Rectangle 63 (22).png" alt="" />
           <div className="cardd-body">
             <span className="category">News & Events</span>
             <h3 className="titles">
@@ -169,7 +169,7 @@ const Blogs = () => {
 
         {/* Card 9 */}
         <div className="cardd">
-          <img src="./src/assets/images/Rectangle 63 (23).png" alt="" />
+          <img src="/Rectangle 63 (23).png" alt="" />
           <div className="cardd-body">
             <span className="category">Startups</span>
             <h3 className="titles">

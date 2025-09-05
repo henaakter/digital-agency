@@ -11,7 +11,7 @@ const About = () => {
       <div className="learn-container">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <div className="learn-heading">
@@ -22,7 +22,7 @@ const About = () => {
 
         <div className="video-section">
           <div className="video-wrapper">
-            <img src="./src/assets/images/Frame(4).png" alt="video-thumb" />
+            <img src="/Frame(4).png" alt="video-thumb" />
             <button onClick={() => setOpen(true)} className="play-button">
               ▶
             </button>
@@ -62,8 +62,8 @@ const About = () => {
           </div>
 
           <div className="images">
-            <img src="./src/assets/images/Frame (5).png" alt="" />
-            <img src="./src/assets/images/Frame (6).png" alt="" />
+            <img src="/Frame (5).png" alt="" />
+            <img src="/Frame (6).png" alt="" />
           </div>
         </div>
       </section>
@@ -74,7 +74,7 @@ const About = () => {
         <div className="values-container">
           <div className="value-card">
             <div className="icon-circle">
-              <img src="./src/assets/images/bubble-chart-line.png" alt="" />
+              <img src="/bubble-chart-line.png" alt="" />
             </div>
             <h3>Velocity</h3>
             <p>
@@ -86,7 +86,7 @@ const About = () => {
           <div className="value-card">
             <div className="icon-circle">
               <img
-                src="./src/assets/images/checkbox-multiple-line.png"
+                src="/checkbox-multiple-line.png"
                 alt=""
               />
             </div>
@@ -99,7 +99,7 @@ const About = () => {
 
           <div className="value-card">
             <div className="icon-circle">
-              <img src="./src/assets/images/chat-smile-2-line.png" alt="" />
+              <img src="/chat-smile-2-line.png" alt="" />
             </div>
             <h3>Clarity</h3>
             <p>
@@ -119,31 +119,31 @@ const About = () => {
 
         <div className="team-grid">
           <div className="team-member">
-            <img src="./src/assets/images/Rectangle 64.png" alt="" />
+            <img src="/Rectangle 64.png" alt="" />
             <h4>Lewis Mueller I</h4>
             <p>UX/UI Designer</p>
           </div>
 
           <div className="team-member">
-            <img src="./src/assets/images/Rectangle 64 (1).png" alt="" />
+            <img src="/Rectangle 64 (1).png" alt="" />
             <h4>Kenny Murray</h4>
             <p>Founder & Head of Design</p>
           </div>
 
           <div className="team-member">
-            <img src="./src/assets/images/image (1).png" alt="" />
+            <img src="/image (1).png" alt="" />
             <h4>Leah Jacobson</h4>
             <p>Creative Director</p>
           </div>
 
           <div className="team-member">
-            <img src="./src/assets/images/Rectangle 64 (2).png" alt="" />
+            <img src="/Rectangle 64 (2).png" alt="" />
             <h4>Ray Rolfson</h4>
             <p>Marketing Specialist</p>
           </div>
 
           <div className="team-member">
-            <img src="./src/assets/images/image (1).png" alt="" />
+            <img src="/image (1).png" alt="" />
             <h4>Lillie Bauer</h4>
             <p>Project Manager</p>
           </div>
@@ -157,7 +157,7 @@ const About = () => {
         <div className="service-grid">
           <div className="service-card">
             <div className="icon-box">
-              <img src="./src/assets/images/bubble-chart-line.png" alt="" />
+              <img src="/bubble-chart-line.png" alt="" />
             </div>
             <h3 className="service-heading">Brand Identity</h3>
             <p className="service-desc">
@@ -169,7 +169,7 @@ const About = () => {
 
           <div className="service-card">
             <div className="icon-box">
-              <img src="./src/assets/images/computer-line.png" alt="" />
+              <img src="/computer-line.png" alt="" />
             </div>
             <h3 className="service-heading">Web Design</h3>
             <p className="service-desc">
@@ -181,7 +181,7 @@ const About = () => {
 
           <div className="service-card">
             <div className="icon-box">
-              <img src="./src/assets/images/code-s-slash-line.png" alt="" />
+              <img src="/code-s-slash-line.png" alt="" />
             </div>
             <h3 className="service-heading">Web Development</h3>
             <p className="service-desc">
@@ -193,7 +193,7 @@ const About = () => {
 
           <div className="service-card">
             <div className="icon-box">
-              <img src="./src/assets/images/pie-chart-line.png" alt="" />
+              <img src="/pie-chart-line.png" alt="" />
             </div>
             <h3 className="service-heading">Digital Marketing</h3>
             <p className="service-desc">
@@ -238,7 +238,7 @@ const About = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -255,7 +255,7 @@ const About = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -271,7 +271,7 @@ const About = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -288,7 +288,7 @@ const About = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -305,7 +305,7 @@ const About = () => {
                     <h3>Juan Rath</h3>
                     <h6>Head of Product</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -322,7 +322,7 @@ const About = () => {
                     <h3>Francis Kovacek</h3>
                     <h6>Founder</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -338,7 +338,7 @@ const About = () => {
                     <h3>Diana Wiegand</h3>
                     <h6>CEO</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -355,7 +355,7 @@ const About = () => {
                     <h3>Jack</h3>
                     <h6>Employee</h6>
                   </div>
-                  <img src="/src/assets/images/Ellipse 2.png" alt="" />
+                  <img src="/Ellipse 2.png" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -371,22 +371,22 @@ const About = () => {
 
         <div className="awards-grid">
           <div className="award-card">
-            <img src="./src/assets/images/Group.png" alt="" />
+            <img src="/Group.png" alt="" />
             <p>Top 100 Innovators in Digital Design</p>
           </div>
 
           <div className="award-card">
-            <img src="./src/assets/images/Group (1).png" alt="" />
+            <img src="/Group (1).png" alt="" />
             <p>Gold Award for Creative Excellence</p>
           </div>
 
           <div className="award-card">
-            <img src="./src/assets/images/Group (2).png" alt="" />
+            <img src="/Group (2).png" alt="" />
             <p>Excellence in Digital Marketing</p>
           </div>
 
           <div className="award-card">
-            <img src="./src/assets/images/Group (3).png" alt="" />
+            <img src="/Group (3).png" alt="" />
             <p>Top 10 Digital Agencies Worldwide</p>
           </div>
         </div>

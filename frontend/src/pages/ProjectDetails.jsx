@@ -7,13 +7,13 @@ const ProjectDetails = () => {
       <section className="project-section">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <h1>Boldstream</h1>
 
         <div className="project-image">
-          <img src="./src/assets/images/Rectangle 63 (8).png" alt="" />
+          <img src="/Rectangle 63 (8).png" alt="" />
         </div>
 
         <div className="project-info">
@@ -65,7 +65,7 @@ const ProjectDetails = () => {
         </div>
 
         <div className="image-box">
-          <img src="./src/assets/images/Frame0.png" alt="" />
+          <img src="/Frame0.png" alt="" />
         </div>
 
         <p className="view-text">
@@ -98,13 +98,13 @@ const ProjectDetails = () => {
 
         <section className="images-grid">
           <div className="image-card">
-            <img src="./src/assets/images/Frame (1).png" alt="" />
+            <img src="/Frame (1).png" alt="" />
           </div>
           <div className="image-card">
-            <img src="./src/assets/images/Frame (2).png" alt="" />
+            <img src="/Frame (2).png" alt="" />
           </div>
           <div className="image-card wide">
-            <img src="./src/assets/images/Frame (3).png" alt="" />
+            <img src="/Frame (3).png" alt="" />
           </div>
         </section>
 
@@ -132,7 +132,7 @@ const ProjectDetails = () => {
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (8).png" alt="" />
+            <img src="/Rectangle 63 (8).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -154,7 +154,7 @@ const ProjectDetails = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (9).png" alt="" />
+            <img src="/Rectangle 63 (9).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">

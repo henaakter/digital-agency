@@ -6,7 +6,7 @@ const Projects = () => {
       <section className="recent-work">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <div>
@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="blog-post">
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (8).png" alt="" />
+            <img src="/Rectangle 63 (8).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -39,7 +39,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (9).png" alt="" />
+            <img src="/Rectangle 63 (9).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -61,7 +61,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (10).png" alt="" />
+            <img src="/Rectangle 63 (10).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -84,7 +84,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (11).png" alt="" />
+            <img src="/Rectangle 63 (11).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -106,7 +106,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (12).png" alt="" />
+            <img src="/Rectangle 63 (12).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -128,7 +128,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (13).png" alt="" />
+            <img src="/Rectangle 63 (13).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -151,7 +151,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (14).png" alt="" />
+            <img src="/Rectangle 63 (14).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">
@@ -173,7 +173,7 @@ const Projects = () => {
 
         <div className="blog-title">
           <div className="project-about">
-            <img src="./src/assets/images/Rectangle 63 (15).png" alt="" />
+            <img src="/Rectangle 63 (15).png" alt="" />
           </div>
           <div className="blog-content">
             <button className="pro-btn">

@@ -6,7 +6,7 @@ const BlogDetails = () => {
       <section className="featured-article">
 
         <div className="shape">
-          <img src="./src/assets/images/shape1.png" alt="" />
+          <img src="/shape1.png" alt="" />
         </div>
 
         <div className="content">
@@ -22,7 +22,7 @@ const BlogDetails = () => {
           </div>
         </div>
         <div className="image-wrapper">
-          <img src="./src/assets/images/Frame (7).png" alt="" />
+          <img src="/Frame (7).png" alt="" />
         </div>
       </section>
 
@@ -72,7 +72,7 @@ const BlogDetails = () => {
           </p>
 
           <div className="image-block">
-            <img src="./src/assets/images/Frame0.png" alt="" />
+            <img src="/Frame0.png" alt="" />
           </div>
 
           <h2>The Fixed Enormity, This Thousands Turner</h2>
@@ -129,7 +129,7 @@ const BlogDetails = () => {
 
         <div className="cards-container">
           <div className="cardss">
-            <img src="./src/assets/images/Rectangle 63 (17).png" alt="" />
+            <img src="/Rectangle 63 (17).png" alt="" />
             <div className="cardss-body">
               <span className="tag">Startups</span>
               <h3>Elements that capture and retain user interest</h3>
@@ -141,7 +141,7 @@ const BlogDetails = () => {
           </div>
 
           <div className="cardss">
-            <img src="./src/assets/images/Rectangle 63 (24).png" alt="" />
+            <img src="/Rectangle 63 (24).png" alt="" />
             <div className="cardss-body">
               <span className="tag">Marketing</span>
               <h3>Top trends to watch and implement in 2024</h3>
@@ -153,7 +153,7 @@ const BlogDetails = () => {
           </div>
 
           <div className="cardss">
-            <img src="./src/assets/images/Rectangle 63 (18).png" alt="" />
+            <img src="/Rectangle 63 (18).png" alt="" />
             <div className="cardss-body">
               <span className="tag">Design</span>
               <h3>Engaging your audience in the digital age</h3>
